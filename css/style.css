@@ -1,4 +1,3 @@
-
 /* -----------
   universal css
   ------------- */
@@ -8,16 +7,10 @@
   font-family: "Work Sans", sans-serif;
 }
 
-
-
 /* ----------
    google font
    ----------- */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@500&family=Work+Sans:wght@400;500;600;700&display=swap");
-
-
-
-
 
 /* ----------
    header css 
@@ -42,6 +35,11 @@
   color: #131313;
 }
 
+.text-logo a:hover {
+  color: orange;
+  transition: 0.2s;
+}
+
 .nav ul {
   display: flex;
   gap: 18px;
@@ -53,9 +51,14 @@
 
 .nav a {
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   color: #424242;
+}
+
+.nav a:hover {
+  color: orange;
+  transition: 0.2s;
 }
 
 .banner-title {
@@ -95,4 +98,54 @@
   width: 1820;
   display: flex;
   justify-content: center;
+}
+
+/* feature styles */
+
+.feature {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 85px 100px;
+}
+
+.feature-img {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.feature-img img {
+  width: 300px;
+  height: 300px;
+}
+
+.feature-details {
+  padding-top: 170px;
+  padding-left: 45px;
+}
+
+.feature-details h3 {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+  margin-bottom: 20px;
+}
+
+.feature-details .bold-text {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+.feature-details .orange-text {
+  font-weight: 700;
+  font-size: 45px;
+  color: #ff900e;
+}
+
+.feature-details p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
+  margin-bottom: 35px;
 }
