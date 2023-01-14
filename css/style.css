@@ -109,6 +109,7 @@ feature styles
   grid-template-columns: repeat(2, 1fr);
   padding: 85px 200px;
   margin-bottom: 100px;
+  margin-top: 80px;
 }
 
 .feature-img {
@@ -241,10 +242,9 @@ feature styles
    ------------- */
 
 .fact{
-  margin-top: 200px;
+  margin-top: 150px;
   margin-left: 100px;
-  di
-   
+  
 }
 
 .fact h2{
@@ -259,14 +259,15 @@ color: #131313;
   color: #727272;
   margin-top: 24px;
   line-height: 25px;
+  margin-bottom: 100px;
 }
 
 .fact-details{
-  margin-top: 100px;
-  display: flex;
-  justify-content: space-around;
-  padding-right: 70px;
+display: flex;
+justify-content: space-around;
+padding: 0 100px 0 0;
 }
+
 .fact-box{
  
   border: 1px solid #FF900E;
@@ -293,3 +294,57 @@ font-weight: 600;
 font-size: 20px;
 color: #727272;
 }
+
+/* -----------
+ Sponsor style
+ ------------- */
+
+ .sponsor{
+  margin-top: 150px;
+ }
+ .sponsor h2{
+  text-align: center;
+  font-weight: 700;
+font-size: 45px;
+color: #131313;
+ }
+ .sponsor p{
+  text-align: center;
+  font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+color: #727272;
+margin-top: 24px;
+ }
+
+ .sponsors-logo{
+  display: flex;
+  margin: 0 auto;
+  margin-top: 50px;
+  justify-content: space-around;
+ }
+
+ .sponsor-logo img{
+  mix-blend-mode: luminosity;
+ }
+
+ /* ---------
+    footer style
+    ----------- */
+
+    .footer{
+      font-weight: 400;
+font-size: 20px;
+text-align: center;
+color: #424242;
+margin-top: 150px;
+margin-bottom: 150px;
+background: #FFF4E7;
+border-radius: 8px;
+height: 100px;
+align-items: center;
+margin-left: 60px;
+margin-right: 60px;
+padding-top: 75px;
+    }
