@@ -159,8 +159,7 @@ feature styles
 ----------------------- */
 
 .feature-love {
-  /* display: grid;
-  grid-template-columns: repeat(2, 1fr); */
+ 
   display: flex;
   justify-content: space-between;
   padding: 0px 100px;
@@ -207,9 +206,7 @@ feature styles
   color: #727272;
   padding-right: 70px;
 }
-
-.feature-love-down-sec {
-}
+ 
 
 .feature-love-img img {
   width: 630px;
@@ -236,4 +233,63 @@ feature styles
   font-size: 15px;
   text-align: center;
   color: #ffffff;
+}
+
+
+/* -------------
+   fact styles
+   ------------- */
+
+.fact{
+  margin-top: 200px;
+  margin-left: 100px;
+  di
+   
+}
+
+.fact h2{
+  font-weight: 700;
+font-size: 45px;
+color: #131313;
+}
+
+.fact h5{
+  font-weight: 400;
+  font-size: 16px; 
+  color: #727272;
+  margin-top: 24px;
+  line-height: 25px;
+}
+
+.fact-details{
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  padding-right: 70px;
+}
+.fact-box{
+ 
+  border: 1px solid #FF900E;
+  border-radius: 8px;
+  text-align: center;
+  padding: 45px 59px;
+}
+
+.fact-box img{
+  width: 45px;
+height: 45px;
+}
+.fact-details h4{
+  font-weight: 600;
+font-size: 45px;
+text-align: center;
+color: #424242;
+margin-top: 10px;
+margin-bottom: 5px;
+}
+
+.fact-box p{
+font-weight: 600;
+font-size: 20px;
+color: #727272;
 }
