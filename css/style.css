@@ -160,7 +160,6 @@ feature styles
 ----------------------- */
 
 .feature-love {
- 
   display: flex;
   justify-content: space-between;
   padding: 0px 100px;
@@ -207,7 +206,6 @@ feature styles
   color: #727272;
   padding-right: 70px;
 }
- 
 
 .feature-love-img img {
   width: 630px;
@@ -236,115 +234,179 @@ feature styles
   color: #ffffff;
 }
 
-
 /* -------------
    fact styles
    ------------- */
 
-.fact{
+.fact {
   margin-top: 150px;
   margin-left: 100px;
-  
 }
 
-.fact h2{
+.fact h2 {
   font-weight: 700;
-font-size: 45px;
-color: #131313;
+  font-size: 45px;
+  color: #131313;
 }
 
-.fact h5{
+.fact h5 {
   font-weight: 400;
-  font-size: 16px; 
+  font-size: 16px;
   color: #727272;
   margin-top: 24px;
   line-height: 25px;
   margin-bottom: 100px;
 }
 
-.fact-details{
-display: flex;
-justify-content: space-around;
-padding: 0 100px 0 0;
+.fact-details {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 100px 0 0;
 }
 
-.fact-box{
- 
-  border: 1px solid #FF900E;
+.fact-box {
+  border: 1px solid #ff900e;
   border-radius: 8px;
   text-align: center;
   padding: 45px 59px;
 }
 
-.fact-box img{
+.fact-box img {
   width: 45px;
-height: 45px;
+  height: 45px;
 }
-.fact-details h4{
+.fact-details h4 {
   font-weight: 600;
-font-size: 45px;
-text-align: center;
-color: #424242;
-margin-top: 10px;
-margin-bottom: 5px;
+  font-size: 45px;
+  text-align: center;
+  color: #424242;
+  margin-top: 10px;
+  margin-bottom: 5px;
 }
 
-.fact-box p{
-font-weight: 600;
-font-size: 20px;
-color: #727272;
+.fact-box p {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+/* ----------
+    about
+    ---------- */
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  padding-left: 150px;
+  gap: 20px;
+}
+
+.about-titles {
+  width: 50%;
+  padding-top: 50px;
+}
+
+.about-titles h2 {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin-bottom: 20px;
+}
+
+.about-titles p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  line-height: 25px;
+  margin-bottom: 20px;
+}
+
+.about-description {
+  padding-right: 150px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.about-box {
+  display: flex;
+  padding-top: 75px;
+  padding-left: 50px;
+  align-items: center;
+}
+
+.about-box .about-icon {
+  color: rgb(255, 111, 45);
+  margin-right: 20px;
+  font-size: 30px;
+}
+
+.about-details h4 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+}
+
+.about-details p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin-top: 10px;
+  line-height: 20px;
 }
 
 /* -----------
  Sponsor style
  ------------- */
 
- .sponsor{
+.sponsor {
   margin-top: 150px;
- }
- .sponsor h2{
+}
+
+.sponsor h2 {
   text-align: center;
   font-weight: 700;
-font-size: 45px;
-color: #131313;
- }
- .sponsor p{
+  font-size: 45px;
+  color: #131313;
+}
+
+.sponsor p {
   text-align: center;
   font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-text-align: center;
-color: #727272;
-margin-top: 24px;
- }
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+  color: #727272;
+  margin-top: 24px;
+}
 
- .sponsors-logo{
+.sponsors-logo {
   display: flex;
   margin: 0 auto;
   margin-top: 50px;
   justify-content: space-around;
- }
+}
 
- .sponsor-logo img{
+.sponsor-logo img {
   mix-blend-mode: luminosity;
- }
+}
 
- /* ---------
+/* ---------
     footer style
     ----------- */
 
-    .footer{
-      font-weight: 400;
-font-size: 20px;
-text-align: center;
-color: #424242;
-margin-top: 150px;
-margin-bottom: 150px;
-background: #FFF4E7;
-border-radius: 8px;
-height: 100px;
-align-items: center;
-margin-left: 60px;
-margin-right: 60px;
-padding-top: 75px;
-    }
+.footer {
+  font-weight: 400;
+  font-size: 20px;
+  text-align: center;
+  color: #424242;
+  margin-top: 150px;
+  margin-bottom: 150px;
+  background: #fff4e7;
+  border-radius: 8px;
+  height: 100px;
+  align-items: center;
+  margin-left: 60px;
+  margin-right: 60px;
+  padding-top: 75px;
+}
