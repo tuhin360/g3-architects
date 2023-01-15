@@ -265,10 +265,27 @@ feature styles
 }
 
 .fact-box {
-  border: 1px solid #ff900e;
+  border: 1px solid #fc9620;
   border-radius: 8px;
   text-align: center;
   padding: 45px 59px;
+}
+
+.fact-box:hover {
+  background-color: rgb(248, 181, 66);
+  transition: 0.3s;
+  color: #ffff;
+  transform: scale(1.2);
+}
+.fact-box:hover h4,
+p {
+  color: #fff;
+  transition: 0.3s;
+}
+
+.fact-box:hover p {
+  color: #fff;
+  transition: 0.3s;
 }
 
 .fact-box img {
@@ -388,7 +405,8 @@ feature styles
 }
 
 .sponsor-logo img {
-  mix-blend-mode: luminosity;
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
 }
 
 /* ---------
